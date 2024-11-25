@@ -20,17 +20,35 @@ public class Application {
             int user3 = scanner.nextInt();
 
             // TODO: strike 개수를 계산하세요
+            int number = 3;
+            int number2 = 8;
+            int number3 = 9;
+
+            int strike = 0;
+            if (user1 == number) {
+                strike = strike + 1;
+
+            }
+            if (user2 == number2) {
+                strike = strike + 1;
+            }
+
+            if (user3 == number3) {
+                strike = strike + 1;
+            }
 
 
             // TODO: 결과를 출력하세요 (예: "1 스트라이크")
-
+            System.out.println(strike + "스트라이크");
 
             // TODO: 3 스트라이크인 경우 게임을 끝내세요
-
+            if (strike == 3) {
+                break;
+            }
 
         }
 
-        // System.out.println("축하합니다! 정답을 맞추셨습니다.");
+        System.out.println("축하합니다! 정답을 맞추셨습니다.");
     }
 
 }
