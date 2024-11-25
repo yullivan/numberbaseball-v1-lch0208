@@ -41,10 +41,27 @@ public class Application {
             // TODO: 결과를 출력하세요 (예: "1 스트라이크")
             System.out.println(strike + "스트라이크");
 
+
+
+
             // TODO: 3 스트라이크인 경우 게임을 끝내세요
             if (strike == 3) {
                 break;
             }
+            int ball = 0;//볼 개수
+            boolean isCorrect = false; // 정답 여부
+            // 여기서부터 학생들이 작성할 코드 영역입니다
+            // TODO: strike와 ball의 개수를 계산하세요
+            if(!(user1 == number)){
+                ball = ball +1;
+            }
+
+
+            // TODO: 결과를 출력하세요 (예: "1 스트라이크 1 볼")
+
+
+            // TODO: 3 스트라이크인 경우 isCorrect를 true로 변경하세요
+
 
         }
 
