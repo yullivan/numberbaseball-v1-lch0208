@@ -48,17 +48,17 @@ public class Application {
             if (strike == 3) {
                 break;
             }
-            int ball = 0;//볼 개수
+            int ball = 0;//볼 개수//볼의 조건은 컴퓨터의 넘버와 다른 유저자리의 넘버가 일치할경우 볼로 한다.
             boolean isCorrect = false; // 정답 여부
             // 여기서부터 학생들이 작성할 코드 영역입니다
             // TODO: strike와 ball의 개수를 계산하세요
-            if(!(user1 == number)){
+            if((number ==user2)||(number == user3)){
                 ball = ball +1;
             }
-            if(!(user2 == number2)){
+            if((number2 == user1)||(number2 == user3)){
                 ball = ball +1;
             }
-            if(!(user3 == number3)){
+            if((number3 == user1)||(number3 == user2)){
                 ball = ball +1;
             }
 
