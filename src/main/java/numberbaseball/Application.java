@@ -55,12 +55,23 @@ public class Application {
             if(!(user1 == number)){
                 ball = ball +1;
             }
+            if(!(user2 == number2)){
+                ball = ball +1;
+            }
+            if(!(user3 == number3)){
+                ball = ball +1;
+            }
 
 
             // TODO: 결과를 출력하세요 (예: "1 스트라이크 1 볼")
+            System.out.println(strike+"1스트라이크"+ball+"1볼");
 
 
             // TODO: 3 스트라이크인 경우 isCorrect를 true로 변경하세요
+            if(user1 == number){
+                isCorrect = true;
+
+            }
 
 
         }
